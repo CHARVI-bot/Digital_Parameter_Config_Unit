@@ -16,6 +16,10 @@ void setup() {
     display.clearDisplay();
     display.setTextSize(1);
     display.setTextColor(SSD1306_WHITE);
+    display.setCursor(0, 0);
+    display.println("Arduino UNO R4");
+    display.println("OLED with I2C");
+    display.println("Hello Students");
 }
 
 void loop() {
