@@ -20,6 +20,7 @@ void setup() {
     display.println("Arduino UNO R4");
     display.println("OLED with I2C");
     display.println("Hello Students");
+    display.display();
 }
 
 void loop() {
